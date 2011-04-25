@@ -4,10 +4,8 @@ layout: home
 
 <script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
 <script language="javascript" type="text/javascript">
-alert(jQuery('table.menu tr').length);
-alert(jQuery('table.menu td tr').length);
-alert(jQuery('table.menu td').length);
-alert(jQuery('table.menu > tr > td').addClass('menu').removeClass('menuactive').length);
+alert(jQuery('table.menu td.menu').length);
+alert(jQuery('table.menu td.menu').addClass('menu').removeClass('menuactive').length);
 jQuery('#menucommunique').addClass('menuactive').removeClass('menu');
 </script>
 
