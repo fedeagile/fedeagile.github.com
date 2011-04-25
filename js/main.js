@@ -4,6 +4,6 @@ $(document).ready(function() {
 
 });
 
-var alert2(message) {
+function alert2(message) {
 	alert(message);
 }
