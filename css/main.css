@@ -74,13 +74,13 @@ color:#b2c791;
 text-decoration: none;
 }
 
-menuactive {
+td.menuactive {
 PADDING-LEFT: 5px;
 PADDING-RIGHT: 5px;
 BACKGROUND: url(/images/apples-and-water-lily/menu-bg-active.gif) repeat-x
 }
 
-menu {
+td.menu {
 PADDING-LEFT: 5px;
 PADDING-RIGHT: 5px;
 BACKGROUND: url(/images/apples-and-water-lily/menu-bg.gif) repeat-x
